@@ -1,0 +1,12 @@
+# Можно протестировать запросы когда
+
+GET http://127.0.0.1:8000/news
+Accept: application/json
+
+###
+@news_id = 1
+
+GET http://127.0.0.1:8000/news/{{news_id}}
+Accept: application/json
+
+###
